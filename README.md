@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+One Paragraph of project description goes here. This is a template for organization repositories, set your own stuff.
 
-## Available Scripts
+## Getting Started :arrow_forward:
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### `yarn start`
+### Prerequisites :clipboard:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+What things you need to install the software and how to install them
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Node](https://nodejs.org/es/)
+- [NPM](https://www.npmjs.com/)
 
-### `yarn test`
+### Installing :arrow_down:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A step by step series of examples that tell you how to get a development env running
 
-### `yarn build`
+Say what the step will be
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+# Install dependencies
+$ npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run server
+$ npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run tests
+$ npm run tests
 
-### `yarn eject`
+# Build project
+$ npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment :package:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add additional notes about how to deploy this on a live system
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With :hammer_and_wrench:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [ReactJS](https://es.reactjs.org/)
 
-## Learn More
+## Contributing :family_man_man_boy:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Please read [CONTRIBUTING.md](https://www.aaaimx.org/cod) for details on our code of conduct, and the process for submitting pull requests to us.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Versioning :triangular_flag_on_post:
 
-### Code Splitting
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors :family_man_man_boy:
 
-### Analyzing the Bundle Size
+- **Esteban Alvarez** - _Initial work_ - [@alvarez98](https://github.com/alvarez98)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits :star:
 
-### Making a Progressive Web App
+- **A template to make good README.md** - _Base template_ - [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## References :link:
 
-### Advanced Configuration
+1. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License :page_facing_up:
 
-### Deployment
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [Esteban Alvarez](https://github.com/alvarez98) 
