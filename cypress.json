@@ -1,0 +1,6 @@
+{
+    "baseUrl": "http://0.0.0.0:3000",
+    "chromeWebSecurity": false,
+    "viewportWidth": 800,
+    "viewportHieight": 800
+}
