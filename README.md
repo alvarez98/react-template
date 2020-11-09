@@ -59,10 +59,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## References :link:
 
-1. 
+1. [ReactJS](https://es.reactjs.org/)
+2. [Reach-Router](https://reach.tech/router/)
+3. [Styled-Components](https://styled-components.com/)
 
 ## License :page_facing_up:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-Made with ❤️ by [Esteban Alvarez](https://github.com/alvarez98) 
+Made with ❤️ by [Esteban Alvarez](https://github.com/alvarez98)

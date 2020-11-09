@@ -1,26 +1,21 @@
-import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom'
-
-import { Home } from './pages/Home'
-import { Template } from './pages/Template'
-import { NotFound } from './pages/NotFound'
+import React, { Suspense } from 'react'
 import GlobalStyles from './styles/Global'
+import { Router } from '@reach/router'
+import { Home } from './pages/Home'
+import { NotFound } from './pages/NotFound'
+import { NavBar } from './components/NavBar'
+const Template = React.lazy(() => import('./pages/Template'))
 
 const App = () => (
-  <>
+  <Suspense fallback={<div />}>
     <GlobalStyles />
     <Router>
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/template' component={Template} />
-        <Route component={NotFound} />
-      </Switch>
+      <NotFound default />
+      <Home path='/' />
+      <Template path='/template' />
     </Router>
-  </>
+    <NavBar />
+  </Suspense>
 )
 
 export default App

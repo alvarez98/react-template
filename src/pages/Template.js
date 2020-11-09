@@ -1,3 +1,4 @@
 import React from 'react'
 
-export const Template = () => <h1>Template</h1>
+const Template = () => <h1>Template</h1>
+export default Template
